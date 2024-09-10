@@ -1,0 +1,438 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    
+}
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    font-style:normal;
+    padding: 10px;
+    height: 20px;
+    width: 96.5%;
+    background: linear-gradient(to RIGHT,rgb(49, 15, 221),rgb(0, 0, 0));
+}
+.logo{
+    position: absolute;
+    top: 7%;
+    left: 86ch; 
+}
+.topnav{
+        background-image:linear-gradient(to right,rgb(6, 114, 255),rgb(0, 0, 0));
+        overflow: hidden;
+        position: sticky;
+        position: absolute;
+        top: 22%;
+        z-index: 1;
+    }
+    .topnav a{
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 20px 100px;
+        text-decoration: none;
+        font-size: 18px;
+        
+    }
+    .topnav a:hover{
+        background-color: #fec701;
+        color:rgb(0, 0, 0)
+    }
+    .topnav a.active{
+        background-color: #000000;
+        color: white;
+    }
+
+    .leftbus{
+        position: absolute;
+        top: 7%;
+        left: 2%;
+    }
+    .rightbus{
+        position: absolute;
+        top: 7%;
+        right: 2%;
+    }
+    .topmark{
+        position: absolute;
+        top:4%;
+        width: 54%;
+        color: white;
+    }
+    .container{
+        position: absolute;
+        top:38%;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+        margin: 0;
+        padding: 20px;
+    }
+    
+    .container {
+        display: flex;
+    }
+    
+    .form-container, .info-container {
+        flex: 1;
+        background-color: #fff;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    .form-container {
+        margin-right: 20px;
+    }
+    
+    h2 {
+        color: #333;
+    }
+    
+    label {
+        display: block;
+        margin-top: 10px;
+        color: #555;
+    }
+    
+    input, select {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0 10px 0;
+        border: 1px solid #ca4f4f;
+        border-radius: 4px;
+    }
+    
+    button {
+        width: 100%;
+        padding: 10px;
+        background: linear-gradient(to left,rgb(5, 98, 219),rgb(23, 21, 21));
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #45a049;
+    }
+    
+    p {
+        color: #666;
+    }
+    .info-container {
+        flex: 4;
+        padding: 3px;
+        border: 3px solid #000000;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 100px;
+        position: absolute;
+        left: 96%;
+        width: 90%;
+        height: 37%;
+        top: 62%;
+        
+    }
+    .img1 img{
+        position: absolute;
+      width: 99%;
+      height: 99%;
+       
+
+    }
+    .form-container{
+      width: 800px;
+      background-color:rgb(217, 231, 253);
+      position: relative;
+      left:4%
+    
+    }
+    .destination{
+        position: absolute;
+        top: 102%;
+        color: #fff;
+    }
+    .desimg{
+        position: absolute;
+        top: 110%;
+        left: 4%;
+    }
+    .topplace{
+        position: absolute;
+        top: 170%;
+        color: #fff;
+    }
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+.kanyakumari {
+    position: absolute;
+    top: 180%;
+    left: 4%;
+    width: 200%;
+}
+
+.kanyakumari img {
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #000000;
+    transition: transform 0.3s ease; /* Add transition for smooth zoom */
+}
+
+.kanyakumari img:hover {
+    transform: scale(1.1); /* Zoom in the image */
+}
+
+.marina {
+    position: absolute;
+    top: 180%;
+    left: 45%;
+}
+
+.marina img {
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #000000;
+    transition: transform 0.3s ease;
+}
+
+.marina img:hover {
+    transform: scale(1.1);
+}
+
+.cadalore {
+    position: absolute;
+    top: 180%;
+    left: 87%;
+}
+
+.cadalore img {
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #000000;
+    transition: transform 0.3s ease;
+}
+
+.cadalore img:hover {
+    transform: scale(1.1);
+}
+
+.madhurai {
+    position: absolute;
+    top: 180%;
+    left: 128%;
+}
+
+.madhurai img {
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #000000;
+    transition: transform 0.3s ease;
+}
+
+.madhurai img:hover {
+    transform: scale(1.1);
+}
+
+.thanjur {
+    position: absolute;
+    top: 180%;
+    left: 167.5%;
+}
+
+.thanjur img {
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #000000;
+    transition: transform 0.3s ease;
+}
+
+.thanjur img:hover {
+    transform: scale(1.1);
+}
+
+.tiruvarur{
+    position: absolute;
+    top: 220%;
+    left: 4%;
+    width: 250%;
+    
+}
+.tiruvarur img {
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #000000;
+    transition: transform 0.3s ease; /* Add transition for smooth zoom */
+}
+
+.tiruvarur img:hover {
+    transform: scale(1.1); /* Zoom in the image */
+}
+
+.srirangam{
+    position: absolute;
+    top: 220%;
+    left: 45%;
+    width: 250%;
+
+}
+.srirangam img{
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #000000;
+    transition: transform 0.3s ease;
+
+}
+.srirangam img:hover {
+    transform: scale(1.1); 
+}
+.thiruvannamalai{
+    position: absolute;
+    top: 220%;
+    left: 87%;
+}
+.thiruvannamalai img{
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px;
+    transition:transform 0.3s ease;
+
+}
+.thiruvannamalai img:hover{
+    transform: scale(1.1);
+}
+.kumbakonam{
+    position: absolute;
+    top: 220%;
+    left: 128%;
+}
+.kumbakonam img{
+    border-radius: 13px ;
+    box-shadow: 4px 7px 7px 0px;
+    transition:transform 0.3s ease;
+}
+.kumbakonam img:hover{
+    transform: scale(1.1);
+}
+.kodaikanal{
+    position: absolute;
+    top:220%;
+    left: 167.5%;
+}
+.kodaikanal img{
+    border-radius: 13px ;
+    box-shadow: 4px 7px 7px 0px;
+    transition:transform 0.3s ease;
+}
+.kodaikanal img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+    
+    .thiru{
+        position: absolute;
+        right:30%;
+        top:8%;
+    }
+    .raja{
+        position: absolute;
+        top:8%;
+        left: 25%;
+    }
+    .maha{
+        position: absolute;
+        top: 9%;
+        left: 71%;
+    }
+    .nadaraja{
+        position: absolute;
+        top:8%;
+        left:18%;
+    }
+    .tvr{
+        position: absolute;
+        left: 80%;
+        top: 8%;
+    }
+    .kum{
+        position: absolute;
+        left:12%;
+        top:8%;
+    }
+    .content-wrapper {
+        background-color: #f0f0f0; /* Change this to your desired background color */
+        padding: 20px;
+    }
+    .cont{
+        border-top: 40%;
+        background: linear-gradient(to left,rgb(5, 98, 219),rgb(23, 21, 21));
+        padding: 400px;
+        border-bottom: 100%;
+        position:absolute;
+        width: 53.5%;
+        top:24%;
+        height: 120%;
+    }
+    .container{
+        position: absolute;
+        left: 1%;
+        top:7%;
+    }
+    .thanjavur{
+        position: absolute;
+        left: 30%;
+        top:8%;
+
+    }
+    .first{
+        color: #f0f0f0;
+    }
+    .second{
+        color: #f0f0f0;
+    }
+    .photo-container {
+        width: 780px;
+        height: 390px;
+        border: 2px solid #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: absolute;
+        top:0%;
+        left: 108%;
+
+    }
+    
+    .image-slide {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+    }
+    
+    .image-slide.active {
+        opacity: 1;
+    }
+    .foot{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        padding: 4%;
+        background-color: #000000;
+        top:270%;
+        left: -2%;
+        width:198%;
+    }
+    

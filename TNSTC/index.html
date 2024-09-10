@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TNSTC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+        .login-box {
+            position: absolute;
+            top: 10px;
+            right: 100px;
+            background-color: #ff0000;
+            padding: 10px;
+            border: 1px solid #000000;
+            border-radius: 50px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Styling for the login button */
+        .login-button {
+            background-color: #007bff;
+            color: #000000;
+            border: none;
+            border-radius: 50px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .Signup-box {
+            position: absolute;
+            top:10px;
+            right: 0px;
+            background-color: #ff0000;
+            padding: 10px;
+            border: 1px solid #000000;
+            border-radius: 50px;
+            box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Styling for the signup button */
+        .Signup-button {
+            background-color: #007bff;
+            color: #000000;
+            border: none;
+            border-radius: 50px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .Book-box {
+            position: absolute;
+            top:10px;
+            right:330px;
+            background-color: #f70000;
+            padding: 10px;
+            border: 1px solid #000000;
+            border-radius: 50px;
+            box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Styling for the signup button */
+        .Book-button {
+            background-color: #007bff;
+            color: #000000;
+            border: none;
+            border-radius: 50px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .CancelTicket-box {
+            position: absolute;
+            top:10px;
+            right:190px;
+            background-color: #fa0000;
+            padding: 10px;
+            border: 1px solid #000000;
+            border-radius: 50px;
+            box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Styling for the signup button */
+        .CancelTicket-button {
+            background-color: #007bff;
+            color: #000000;
+            border: none;
+            border-radius: 50px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .container {
+            display: flex;
+            
+        }
+        .form-container {
+            flex: 1;
+            padding: 20px;
+            border: 1px solid #ccc;
+            
+        }
+      
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 10px 0;
+        }
+</style>
+<body>    
+    <div class="top">
+      <div class="first"> Online Reservation Toll Free Number: 08066006572
+       </div>
+      <div class="second"> Bank Queries-Basispay / Helpdesk: 7305068045
+</div>
+    </div>
+    <div class="logo">
+        <center><img src="Images\tnstc_header02.jpg" class="center"></center> 
+    </div>
+<div class="leftbus">
+    <img src="Images\tnstc_header01.jpg" alt="No img">
+</div>
+<div class="thanjavur">
+    <img src="Images\R.jpeg"  width="210" height="150">
+</div>
+<div class="raja">
+    <img src="Images\raja.jpeg" alt="no img" width="80">
+</div>
+<div class="nadaraja">
+    <img src="Images\nadaraja.jpeg" alt="" width="120" height="130">
+</div>
+<div class="rightbus">
+    <img src="Images\tnstc_header03.jpg" alt="No img">
+</div>
+<div class="maha">
+    <img src="Images\maha.jpeg" alt="" width="150" height="130">
+</div>
+<div class="thiru">
+    <img src="Images\thiruvalluvar-coloring-page.png" width="100"  height="130">
+</div>
+<div class="tvr">
+    <img src="Images\tvr.png" alt="" width="100"  height="130">
+</div>
+<div class="kum">
+    <img src="Images\kum.png" alt="" width="105" height="130">
+</div>
+    <div class="topnav">
+        <a class ="active" href="#home">Home</a>
+        <a href="">About</a>
+        <a href="">Tourist</a>
+        <a href="">Services</a>
+        <a href="">Contact</a>
+        <a href="">Login</a>
+        <a href="">Signup</a> 
+    </div>
+</div>
+<div class="cont">
+    <div class="bd">
+        <div class="topmark">
+            <marquee width ="%" behavior="scroll" direction ="left" scrollamount ="5"><b>"All South SETC bound buses booking from Chennai Kilambakkam KCBT" |     "Online Reservation Toll Free Number: 08066006572 / 9513948001."</b></marquee>
+        </div>
+        <div class="container">
+            <div class="form-container">
+                <h2>Advance Booking</h2>
+                <form>
+                    <label for="from">From:</label>
+                    <select id="from" name="from">
+                        <option>Select</option>
+                        <option>Ariyalur</option>
+        <option>Chengalpattu</option>
+        <option>Chennai</option>
+        <option>Coimbatore</option>
+        <option>Cuddalore</option>
+        <option>Dharmapuri</option>
+        <option>Dindigul</option>
+        <option>Erode</option>
+        <option>Kallakurichi</option>
+        <option>Kancheepuram</option>
+        <option>Karur</option>
+        <option>Krishnagiri</option>
+        <option>Madurai</option>
+        <option>Mayiladuthurai</option>
+        <option>Nagapattinam</option>
+        <option>Namakkal</option>
+        <option>Nilgiris</option>
+        <option>Perambalur</option>
+        <option>Pudukkottai</option>
+        <option>Ramanathapuram</option>
+        <option>Ranipet</option>
+        <option>Salem</option>
+        <option>Sivagangai</option>
+        <option>Tenkasi</option>
+        <option>Thanjavur</option>
+        <option>Theni</option>
+        <option>Thoothukudi</option>
+        <option>Tiruchirappalli</option>
+        <option>Tirunelveli</option>
+        <option>Tirupattur</option>
+        <option>Tiruppur</option>
+        <option>Tiruvallur</option>
+        <option>Tiruvannamalai</option>
+        <option>Tiruvarur</option>
+        <option>Vellore</option>
+        <option>Viluppuram</option>
+        <option>Virudhunagar</option>
+        
+                    </select>
+        
+                    
+        
+                    <label for="to">To:</label>
+                    <select id="" name="">
+                        <option>Select</option>
+                        <option>Ariyalur</option>
+        <option>Chengalpattu</option>
+        <option>Chennai</option>
+        <option>Coimbatore</option>
+        <option>Cuddalore</option>
+        <option>Dharmapuri</option>
+        <option>Dindigul</option>
+        <option>Erode</option>
+        <option>Kallakurichi</option>
+        <option>Kancheepuram</option>
+        <option>Karur</option>
+        <option>Krishnagiri</option>
+        <option>Madurai</option>
+        <option>Mayiladuthurai</option>
+        <option>Nagapattinam</option>
+        <option>Namakkal</option>
+        <option>Nilgiris</option>
+        <option>Perambalur</option>
+        <option>Pudukkottai</option>
+        <option>Ramanathapuram</option>
+        <option>Ranipet</option>
+        <option>Salem</option>
+        <option>Sivagangai</option>
+        <option>Tenkasi</option>
+        <option>Thanjavur</option>
+        <option>Theni</option>
+        <option>Thoothukudi</option>
+        <option>Tiruchirappalli</option>
+        <option>Tirunelveli</option>
+        <option>Tirupattur</option>
+        <option>Tiruppur</option>
+        <option>Tiruvallur</option>
+        <option>Tiruvannamalai</option>
+        <option>Tiruvarur</option>
+        <option>Vellore</option>
+        <option>Viluppuram</option>
+        <option>Virudhunagar</option>
+        
+                    </select>
+        
+                    <label for="onward-date">Onward Journey Date:</label>
+                    <input type="date" id="return-date" name="return-date"> 
+        
+                    <label for="onward-time">Time:</label>
+                    <select id="onward-time" name="onward-time">
+                        <option value="any">ANY</option>
+                        <!-- Add more options as needed -->
+                    </select>
+        
+                    <label for="return-date">Return Journey Date:</label>
+                    <input type="date" id="return-date" name="return-date"> 
+        
+                    <label for="return-time">Time:</label>
+                    <select id="return-time" name="return-time">
+                        <option value="any">ANY</option>
+                        <!-- Add more options as needed -->
+                    </select>
+        
+                    <label for="adults">Service Class:</label>
+                    <select id="" name="">
+                        <option>ALL CLASSES</option>
+                        <option>AC SLEEPER</option>
+                        <option>AC SLEEPER SEATER</option>
+                        <option>AIR CONDITIONER</option>
+                        <option>ALL CLASSES</option>
+                        <option>CLASSIC</option>
+                        <option>DELUX</option>
+                        <option>DELUX 3X2</option>
+                        <option>NONAC SLEEPER</option>
+                        <option>ULTRA DELUX</option>
+                    </select>
+                   
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+            <div class="destination">
+                <p><b><h1>Top Destination</h1></b></p>
+            </div>
+            <div class="desimg">
+                <img src="Images\Screenshot 2024-07-30 224510.png" alt="image1" >
+            </div>
+            <div class="topplace">
+                <p style="color: white"><b><h1>Top Places</h1></b></p>
+            </div>
+        
+            <div class="kanyakumari">
+                <img src="Images\td_01.jpg" alt="no img">
+                <b><h2 style="color: #ccc;">Kanyakumari</h2></b>
+            </div>
+        
+            <div class="marina">
+                <img src="Images\td_02.jpg" alt="no img">
+                <b><h2 style="color: #ccc;">Marina</h2></b>
+            </div>
+        
+            <div class="cadalore">
+                <img src="Images\td_03.jpg" alt="no img">
+                <b><h2 style="color: #ccc;">Caddalore</h2></b>
+            </div>
+        
+            <div class="madhurai">
+                <img src="Images\td_04.jpg" alt="no img">
+                <b><h2 style="color: #ccc;">Madurai</h2></b>
+            </div>
+            <div class="thanjur">
+                <img src="Images\thanjur.jpg" alt="" width="262" height="190">
+                <b><h2 style="color: #ccc;">Thanjavur</h2></b>
+            </div>
+            <div class="tiruvarur">
+                <img src="Images\therru.jpg" alt="thiruvarur" width="262" height="190">
+                <b><h2 style="color: #ccc;">Thiruvarur</h2></b>
+            </div>
+            <div class="srirangam">
+                <img src="Images\srirangam.jpg" alt="srirangam" width="262" height="190">
+                <b><h2 style="color: #ccc;">Srirangam</h2></b>
+            </div>
+            <div class="thiruvannamalai">
+                <img src="Images\thiruvannamalai.jpg" alt="thiruvannamalai" width="262" height="190">
+                <b><h2 style="color: #ccc;">Thiruvannamalai</h2></b>
+            </div>
+            <div class="kumbakonam">
+                <img src="Images/kumbakonam.jpg" alt="kumbakonam" width="262" height="190">
+                <b><h2 style="color: #ccc;">Kumbakonam</h2></b>
+            </div>
+            <div class="kodaikanal">
+                <img src="Images\kodaikanal.jpg" alt="kodaikanal" width="262" height="190">
+                <b><h2 style="color: #ccc;">Kodaikanal</h2></b>
+            </div>
+            <div class="info-container">
+                <div class="img1"><img src="Images\tn_slider01.jpg" width="100" height="100"></div>
+
+             
+</div>
+<div class="photo-container">
+    <img src="Images\setcgreen.jpg" class="image-slide active">
+    <img src="Images\setcwhite.jpg" class="image-slide">
+    <img src="Images\mtc.jpg" class="image-slide">
+    <img src="Images\setcnew.jpg" class="image-slide">
+    <img src="Images\koyampedu.jpeg" class="image-slide">
+    <img src="Images\delux.jpg" class="image-slide">
+   \end{code}
+</div>
+<footer>
+    <div class="foot">
+        <h3><center>2024 Tamil Nadu State Transport Corporation. All Rights Reserved.</center></h3>
+     </div>
+</footer>
+
+<script src="script.js"></script> 
+
+</body>
+</html>
